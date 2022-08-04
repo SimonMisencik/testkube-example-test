@@ -2,8 +2,8 @@
 
 describe('check main page of nginx', () => {
     beforeEach(() => {
-        // cy.visit('krakend.default.svc.cluster.local')
-        cy.visit('krakend:80')
+        // cy.visit('nginx.testkube.svc.cluster.local')
+        cy.visit('nginx:80')
     })
 
     it('Check title of the main page', () => {
